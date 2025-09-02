@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
   <head>
     <meta charset="utf-8" />
     <title>eikon parcel starter</title>
@@ -7,21 +7,107 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <header class="navigation-top">
-      <h1>Atlas divin</h1>
-      <img
-        class="navigation-icon"
-        src="img/burger.svg"
-        alt="Icon menu burger"
-      />
-    </header>
-    <ul class="navigation-burger navigation-hidden">
-      <li><a class="navigation-text" href="#" alt="Accueil">Accueil</a></li>
-      <li><a class="navigation-text" href="#" alt="Blog">Blog</a></li>
-      <li><a class="navigation-text" href="#" alt="Conseils">Conseils</a></li>
-      <li><a class="navigation-text" href="#" alt="A propos">A propos</a></li>
-      <li><a class="navigation-text" href="#" alt="Contact">Contact</a></li>
-    </ul>
+    <div class="container">
+      <header class="navigation-top">
+        <div class="row">
+          <div class="col">
+            <a href="#">Atlas divin</a>
+          </div>
+          <div class="col">
+            <nav>
+              <button>
+                <img
+                  class="navigation-icon"
+                  src="img/burger.svg"
+                  alt="Icon menu burger"
+                />
+              </button>
+              <ul class="navigation-burger navigation-hidden">
+                <li>
+                  <a class="navigation-text" href="#" alt="Accueil"
+                    >Mes favoris</a
+                  >
+                </li>
+                <li>
+                  <a class="navigation-text" href="#" alt="Blog"
+                    >Dieu du jour</a
+                  >
+                </li>
+                <li>
+                  <a class="navigation-text" href="#" alt="Conseils"
+                    >Dieux populaires</a
+                  >
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    id="dark-mode-btn"
+                    class="header-dark-mode-btn"
+                  >
+                    Passer au dark mode
+                  </button>
+                  <button
+                    type="button"
+                    id="light-mode-btn"
+                    class="header-light-mode-btn"
+                  >
+                    Passer au light mode
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col"><h1>Voir les dieux des panthéons</h1></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <section>
+              <h2>Dieu du jour</h2>
+              <h3>Bacchus</h3>
+              <p>Dieu romain du vin</p>
+              <p>
+                Egalement Dieu de l'ivresse, des débordements, de la nature et
+                des festivités.
+              </p>
+              <p>
+                Bacchus est un dieu romain correspondant à Dionysos dans
+                la mythologie grecque. Les Romains utilisaient Bacchus comme un
+                autre nom de Liber Pater, un dieu latin de la fécondité.
+              </p>
+              <div>
+                <a href="#">En savoir plus</a>
+                <img src="img/burger.svg" alt="" />
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h5>Panthéons populaires</h5>
+              <a href="#">Panthéon grec</a>
+              <a href="#">Panthéon égyptien</a>
+              <a href="#">Panthéon nordique</a>
+              <a href="#">Panthéon romain</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
 
     <script src="js/main.js" type="module"></script>
   </body>

@@ -1,7 +1,10 @@
-.nav-icon {
+.navigation-icon {
   height: 24px;
 }
 
 .navigation-hidden {
   display: none;
+}
+.navigation-top {
+  background-color: var(--color-bg);
 }
