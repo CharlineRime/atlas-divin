@@ -4,3 +4,6 @@
 @import "./modules/_navigation.css";
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 @import "./modules/_header.css";
+@import "./modules/_daily-god.css";
+@import "./modules/_title.css";
+@import "./modules/_filters.css";
