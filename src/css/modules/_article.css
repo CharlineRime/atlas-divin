@@ -34,9 +34,6 @@ p {
   color: var(--color-text-main);
   font-family: "Bubbler One";
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .article-title-blue {
