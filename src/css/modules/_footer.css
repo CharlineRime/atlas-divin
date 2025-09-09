@@ -5,6 +5,7 @@ footer {
   align-items: flex-start;
   gap: 20px;
   background: var(--color-bg);
+  margin-top: 20px;
 }
 
 @media (min-width: 992px) {

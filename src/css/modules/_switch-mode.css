@@ -1,0 +1,17 @@
+.switch-mode-dark {
+  display: flex;
+  width: 48px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--color-text-secondary, #000);
+  background: var(--color-text-main, #515050);
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.switch-mode-dark-icon {
+  width: 24px;
+  height: 24px;
+}

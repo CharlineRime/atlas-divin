@@ -7,6 +7,7 @@
   align-self: stretch;
   border-radius: 8px;
   border: 2px solid var(--color-text-main);
+  margin-bottom: 40px;
 }
 .daily-god-title {
   color: var(--color-text-main);
@@ -40,7 +41,7 @@
 
 .daily-god-more {
   display: flex;
-
+  justify-content: space-between;
   align-items: center;
   gap: 8px;
   align-self: stretch;

@@ -1,4 +1,5 @@
 html {
+  --color-main-bg: #ffffff;
   --color-bg: #bcbfc3;
   --color-text-main: #515050;
   --color-text-secondary: #000000;
@@ -7,11 +8,18 @@ html {
   --color-green: #12965d;
   --color-red: #f82727;
   --color-white: #ffffff;
+  background-color: var(--color-main-bg);
 }
 html[data-theme="dark"] {
-  --color-bg: #bcbfc3;
+  --color-main-bg: #515050;
+  --color-bg: #696a6c;
   --color-text-main: #f7f6f6;
   --color-text-secondary: #ffffff;
+  --color-blue: #a3d7ff;
+  --color-yellow: #f7f43e;
+  --color-green: #76e5b5;
+  --color-red: #f8a7a7;
+  --color-white: #515050;
 }
 html[data-theme="light"] #light-mode-btn {
   display: none;
@@ -38,7 +46,7 @@ video {
 }
 
 h1 {
-  color: var(--Text-main, #515050);
+  color: var(--color-text-main);
   font-family: "Caesar Dressing";
   font-size: 32px;
 }
@@ -53,6 +61,11 @@ main {
   }
 }
 
+button {
+  background: none;
+  border: none;
+}
+/*
 .row + .row {
   margin-top: 16px;
 }
