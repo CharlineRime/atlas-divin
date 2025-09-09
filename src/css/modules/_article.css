@@ -1,12 +1,12 @@
 article {
   display: flex;
-  width: 178.5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
   border: 2px solid;
   background: var(--color-white);
+  overflow: hidden;
 }
 .article-border-blue {
   border-color: var(--color-blue);
