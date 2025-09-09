@@ -6,7 +6,7 @@ html {
   --color-blue: #279ef8;
   --color-yellow: #f8af27;
   --color-green: #12965d;
-  --color-red: #F82727;
+  --color-red: #f82727;
 }
 html[data-theme="dark"] {
   --color-bg: #bcbfc3;
@@ -36,20 +36,23 @@ video {
   display: block;
 }
 
-h1{
+h1 {
   color: var(--Text-main, #515050);
-font-family: "Caesar Dressing";
-font-size: 32px;
+  font-family: "Caesar Dressing";
+  font-size: 32px;
 }
-main{
-  display: flex;
-width: 393px;
-padding: 0 12px;
-flex-direction: column;
-align-items: flex-end;
-gap: 20px;
+main {
+  width: 393px;
+  padding: 0 12px;
+  gap: 20px;
 }
-/*
+
+@media (min-width: 992px) {
+  main {
+    width: auto;
+  }
+}
+
 .row + .row {
   margin-top: 16px;
 }
