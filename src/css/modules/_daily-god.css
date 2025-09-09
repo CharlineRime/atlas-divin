@@ -40,6 +40,8 @@
 
 .daily-god-more {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
+  gap: 8px;
+  align-self: stretch;
 }

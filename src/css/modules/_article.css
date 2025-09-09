@@ -1,0 +1,62 @@
+article {
+  display: flex;
+  width: 178.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid;
+  background: var(--color-white);
+}
+.article-border-blue {
+  border-color: var(--color-blue);
+}
+.article-border-red {
+  border-color: var(--color-red);
+}
+
+.article-border-yellow {
+  border-color: var(--color-yellow);
+}
+
+.article-border-green {
+  border-color: var(--color-green);
+}
+
+article,
+h2 {
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+}
+
+article,
+p {
+  color: var(--color-text-main);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.article-title-blue {
+  color: var(--color-blue);
+}
+
+.article-title-red {
+  color: var(--color-red);
+}
+
+.article-title-yellow {
+  color: var(--color-yellow);
+}
+
+.article-title-green {
+  color: var(--color-green);
+}
+
+.article-spacing-pantheon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
