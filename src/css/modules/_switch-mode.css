@@ -30,3 +30,12 @@
   justify-content: center;
   margin-bottom: 24px;
 }
+
+@media (min-width: 992px) {
+  .switch-mode-dark-btn {
+    margin-top: -10px;
+  }
+  .switch-mode-light-btn {
+    margin-top: -10px;
+  }
+}
