@@ -1,5 +1,11 @@
 .header {
   background-color: var(--color-bg);
+  display: flex;
+  height: 89px;
+  padding: 20px 12px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .header-logo {

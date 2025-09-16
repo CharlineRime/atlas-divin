@@ -5,8 +5,8 @@ menuIcon.addEventListener("click", () => {
   menuBurger.classList.toggle("navigation-hidden");
 });
 
-const toggleDarkModeBtn = document.querySelector("#switch-mode-dark-btn");
-const toggleLightModeBtn = document.querySelector("#switch-mode-light-btn");
+const toggleDarkModeBtn = document.querySelector("#dark-mode-btn");
+const toggleLightModeBtn = document.querySelector("#light-mode-btn");
 
 toggleDarkModeBtn.addEventListener("click", function () {
   document.querySelector("html").setAttribute("data-theme", "dark");
