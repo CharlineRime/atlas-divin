@@ -59,12 +59,24 @@ main {
   main {
     width: auto;
   }
+  ul {
+    display: flex;
+  }
 }
+
+
 
 button {
   background: none;
   border: none;
 }
+
+ul {
+  gap: 16px;
+}
+
+
+
 /*
 .row + .row {
   margin-top: 16px;

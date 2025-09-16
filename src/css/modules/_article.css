@@ -8,6 +8,7 @@ article {
   background: var(--color-white);
   overflow: hidden;
   margin-bottom: 20px;
+  position: relative;
 }
 .article-border-blue {
   border-color: var(--color-blue);
@@ -39,23 +40,58 @@ p {
 
 .article-title-blue {
   color: var(--color-blue);
+  position: absolute;
+  top: 178px;
+  left: 0px;
+  background-color: var(--color-white);
+  padding: 8px 12px;
 }
 
 .article-title-red {
   color: var(--color-red);
+  position: absolute;
+  top: 178px;
+  left: 0px;
+  background-color: var(--color-white);
+  padding: 8px 12px;
 }
 
 .article-title-yellow {
   color: var(--color-yellow);
+  position: absolute;
+  top: 178px;
+  left: 0px;
+  background-color: var(--color-white);
+  padding: 8px 12px;
 }
 
 .article-title-green {
   color: var(--color-green);
+  position: absolute;
+  top: 178px;
+  left: 0px;
+  background-color: var(--color-white);
+  padding: 8px 12px;
 }
 
 .article-spacing-pantheon {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  gap: 12px;
   align-self: stretch;
+}
+
+.article-spacing-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+  padding: 12px;
+}
+
+.article-spacing-svg {
+  position: absolute;
+  top: 10px;
+  left: 265px;
 }
